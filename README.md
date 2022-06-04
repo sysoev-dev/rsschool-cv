@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sysoev-dev.github.io/rsschool-cv/cv
