@@ -17,6 +17,7 @@ Purposeful, responsible, reliable person. Easily solve technical problems. With 
 * Gulp
 * Git
 * Basic JavaScript
+* Adobe Photoshop, Figma
 * Linux
 
 # Code example:
