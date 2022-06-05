@@ -40,3 +40,49 @@ body {
 .nav-link:hover {
   text-decoration: underline;
 }
+
+.title-wrapper {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 40px;
+  line-height: 32px;
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+}
+
+.main-desc {
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+  font-size: 18px;
+}
+
+.section {
+  padding: 10px 25px 25px 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.section-title {
+  font-size: 32px;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts-link:hover {
+  text-decoration: underline;
+}
