@@ -81,7 +81,7 @@ body {
 }
 
 .contacts-item:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .contacts-link {
@@ -94,7 +94,7 @@ body {
 .contacts-link::before {
   content: '';
   position: absolute;
-  top: -5px;
+  top: -6px;
   left: 0;
   display: block;
   width: 30px;
@@ -120,6 +120,61 @@ body {
   background-image: url(../images/telegram-icon.svg);
 }
 
+.contacts-link--site::before {
+  background-image: url(../images/internet.png);
+}
+
 .contacts-link:hover {
   opacity: 0.6;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-item {
+  padding-left: 40px;
+}
+
+.skills-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.skills-item {
+  position: relative;
+}
+
+.skills-item::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.skills-item--html::before {
+  background-image: url(../images/html-5.png);
+}
+
+.skills-item--css::before {
+  background-image: url(../images/css-3.png);
+}
+
+.skills-item--js::before {
+  background-image: url(../images/java-script.png);
+}
+
+.skills-item--ui::before {
+  background-image: url(../images/illustration.png);
+}
+
+.skills-item--os::before {
+  background-image: url(../images/linux.png);
 }
