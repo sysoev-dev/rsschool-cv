@@ -18,6 +18,7 @@ body {
   border-radius: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .nav-list {
@@ -43,6 +44,10 @@ body {
 
 .title-wrapper {
   text-align: center;
+}
+
+.main-photo {
+  border-radius: 50%;
 }
 
 .main-title {
