@@ -218,7 +218,6 @@ body {
 .education-list {
   margin: 0;
   padding: 0;
-  padding-left: 10px;
   list-style: none;
 }
 
@@ -229,10 +228,19 @@ body {
 .course-list {
   margin: 0;
   padding: 0;
-  padding-left: 10px;
   list-style: none;
 }
 
 .course-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.language-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.language-item {
   margin-bottom: 5px;
 }
