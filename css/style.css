@@ -178,3 +178,22 @@ body {
 .skills-item--os::before {
   background-image: url(../images/linux.png);
 }
+
+.project-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.project-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  opacity: 0.6;
+}
