@@ -17,49 +17,51 @@
     <div class="container">
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="#">General</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Summary</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Knowledge</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Code example</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#general">General</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#example">Code example</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#language">Language</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main class="container">
-    <div class="title-wrapper">
+    <div id="general" class="title-wrapper">
       <img class="main-photo" src="images/photo.jpeg" alt="Photo Vadim" width="250" height="250">
       <h1 class="main-title">Vadim Sysoev</h1>
       <p class="main-desc">Front-end web developer from Karelia</p>
     </div>
-    <section class="section section-contacts">
+    <section id="contacts" class="section section-contacts">
       <h2 class="section-title">Contacts</h2>
       <ul class="contacts-list">
-
-        <li class="contacts-item"><a class="contacts-link contacts-link--site" href="http://sysoev-dev.ru/">My
+        <li class="contacts-item"><a target="_blank" class="contacts-link contacts-link--site"
+            href="http://sysoev-dev.ru/">My
             Website</a>
         </li>
         <li class="contacts-item"><a class="contacts-link contacts-link--email"
             href="mailto:sysoev.dev@gmail.com">E-mail</a></li>
-        <li class="contacts-item"><a class="contacts-link contacts-link--github"
+        <li class="contacts-item"><a target="_blank" class="contacts-link contacts-link--github"
             href="https://github.com/sysoev-dev">GitHub</a></li>
-        <li class="contacts-item"><a class="contacts-link contacts-link--codewars"
+        <li class="contacts-item"><a target="_blank" class="contacts-link contacts-link--codewars"
             href="https://www.codewars.com/users/sysoev-dev">Codewars</a>
         </li>
         <li class="contacts-item"><a class="contacts-link contacts-link--telegram"
             href="https://t-do.ru/sysoev_dev">Telegram</a></li>
       </ul>
     </section>
-    <section class="section about-section">
+    <section id="about" class="section about-section">
       <h2 class="section-title">About me</h2>
       <p class="about-desc">I have always enjoyed learning and creating new things. Now I work in the technology
         industry. Purposeful, responsible, reliable person. Easily solve technical problems.Broad experience in site
         layout.
       </p>
     </section>
-    <section class="section skills-section">
+    <section id="skills" class="section skills-section">
       <h2 class="section-title">Skills</h2>
       <ul class="skills-list">
         <li class="skills-item skills-item--html">HTML</li>
@@ -69,18 +71,20 @@
         <li class="skills-item skills-item--os">Linux</li>
       </ul>
     </section>
-    <section class="section projects-sections">
+    <section id="projects" class="section projects-sections">
       <h2 class="section-title">My projects</h2>
       <ul class="project-list">
-        <li class="project-item"><a href="http://sysoev-dev.ru/projects/moroz" class="project-link">
+        <li class="project-item"><a target="_blank" href="http://sysoev-dev.ru/projects/moroz" class="project-link">
             Santa Claus website</a></li>
-        <li class="project-item"><a href="http://sysoev-dev.ru/projects/vector" class="project-link">Vector group</a>
+        <li class="project-item"><a target="_blank" href="http://sysoev-dev.ru/projects/vector"
+            class="project-link">Vector group</a>
         </li>
-        <li class="project-item"><a href="http://sysoev-dev.ru/projects/calculator" class="project-link">
+        <li class="project-item"><a target="_blank" href="http://sysoev-dev.ru/projects/calculator"
+            class="project-link">
             JavaScript calculator</a></li>
       </ul>
     </section>
-    <section class="section example-section">
+    <section id="example" class="section example-section">
       <h2 class="section-title">Code example</h2>
       <pre><code>
         function multiply(a, b){
@@ -88,14 +92,14 @@
         }
       </code></pre>
     </section>
-    <section class="section education-section">
+    <section id="education" class="section education-section">
       <h2 class="section-title">Education</h2>
       <ul class="education-list">
         <li class="education-item">Secondary school №1 2001-2010</li>
         <li class="education-item">Karelian state energy college 2010-2014</li>
       </ul>
     </section>
-    <section class="section course-section">
+    <section id="courses" class="section course-section">
       <h2 class="section-title">Courses</h2>
       <ul class="course-list">
         <li class="course-item">HTML and CSS on <i>HTML Academy</i></li>
@@ -103,7 +107,7 @@
         <li class="course-item">JavaScript/Front-end. Stage 0 on <i>RS School</i></li>
       </ul>
     </section>
-    <section class="section language-section">
+    <section id="language" class="section language-section">
       <h2 class="section-title">Language</h2>
       <ul class="language-list">
         <li class="language-item">Russian (native)</li>
@@ -111,6 +115,19 @@
       </ul>
     </section>
   </main>
+  <footer class="main-footer">
+    <div class="container">
+      <ul class="footer-list">
+        <li class="footer-item"><a target="_blank" href="https://github.com/sysoev-dev">
+            <img src="images/github-icon.svg" alt="github" width="50" height="50">
+          </a></li>
+        <li class="footer-item"><b>2022 year</b></li>
+        <li class="footer-item"><a target="_blank" href="https://rs.school/js/">
+            <img src="images/rs_school_js.svg" alt="" width="100" height="50">
+          </a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>

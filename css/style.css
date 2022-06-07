@@ -244,3 +244,18 @@ body {
 .language-item {
   margin-bottom: 5px;
 }
+
+.main-footer {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
