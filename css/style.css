@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #161517;
+  background: rgb(156, 252, 248);
+  background: linear-gradient(90deg, rgba(156, 252, 248, 1) 0%, rgba(110, 123, 251, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.title-wrapper {
+  text-align: center;
+}
+
+.main-photo {
+  border-radius: 50%;
+}
+
+.main-title {
+  font-size: 40px;
+  line-height: 32px;
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+}
+
+.main-desc {
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+  font-size: 18px;
+}
+
+.section {
+  padding: 10px 25px 25px 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 32px;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  padding-left: 40px;
+}
+
+.contacts-link::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contacts-link--email::before {
+  background-image: url(../images/email-icon.svg);
+}
+
+.contacts-link--github::before {
+  background-image: url(../images/github-icon.svg);
+}
+
+.contacts-link--codewars::before {
+  background-image: url(../images/codewars-icon.svg);
+}
+
+.contacts-link--telegram::before {
+  background-image: url(../images/telegram-icon.svg);
+}
+
+.contacts-link--site::before {
+  background-image: url(../images/internet.png);
+}
+
+.contacts-link:hover {
+  opacity: 0.6;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-item {
+  padding-left: 40px;
+}
+
+.skills-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.skills-item {
+  position: relative;
+}
+
+.skills-item::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.skills-item--html::before {
+  background-image: url(../images/html-5.png);
+}
+
+.skills-item--css::before {
+  background-image: url(../images/css-3.png);
+}
+
+.skills-item--js::before {
+  background-image: url(../images/java-script.png);
+}
+
+.skills-item--ui::before {
+  background-image: url(../images/illustration.png);
+}
+
+.skills-item--os::before {
+  background-image: url(../images/linux.png);
+}
+
+.project-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.project-link {
+  color: inherit;
+  text-decoration: none;
+  padding-left: 40px;
+  position: relative;
+}
+
+.project-link::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: -5px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/internet.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.project-link:hover {
+  opacity: 0.6;
+}
+
+.education-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.education-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.course-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.course-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.language-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.language-item {
+  margin-bottom: 5px;
+}
+
+.main-footer {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
